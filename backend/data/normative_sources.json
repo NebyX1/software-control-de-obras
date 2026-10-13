@@ -1,0 +1,502 @@
+[
+ {
+  "id": "S01",
+  "organismo": "ARCE",
+  "titulo": "TOCAF actualizado 2026",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/politicas-y-gestion/tocaf",
+  "consulta": "2026-10-12",
+  "hallazgo": "Marco general; compilación con modificaciones de la Ley 20.446. Se contrastaron reglas relevantes con IMPO.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S02",
+  "organismo": "ARCE / INE",
+  "titulo": "Montos de las adquisiciones 2026",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/politicas-y-gestion/montos-adquisiciones",
+  "consulta": "2026-10-12",
+  "hallazgo": "Topes actualizados, distinguiendo gobiernos departamentales del resto de organismos.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S03",
+  "organismo": "INE",
+  "titulo": "Boletín de montos límite enero-diciembre 2026",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/sites/agencia-reguladora-compras-estatales/files/2026-01/TOCAF%20Enero%20-%20Diciembre%202026.pdf",
+  "consulta": "2026-10-12",
+  "hallazgo": "Tabla de umbrales; inclusión de IVA. Páginas 1 y 2 inspeccionadas visualmente.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S04",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 33",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/33",
+  "consulta": "2026-10-12",
+  "hallazgo": "Procedimientos, consulta de instrumentos agregados y causales de excepción; montos históricos del texto se actualizan con INE.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S05",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 48",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/48",
+  "consulta": "2026-10-12",
+  "hallazgo": "Contenido del pliego, dos sistemas de evaluación, moneda y conversión, divisibilidad y no exigir documentación obtenible de sistemas públicos.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S06",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 50",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/50",
+  "consulta": "2026-10-12",
+  "hallazgo": "Publicación de convocatorias competitivas y resultados por encima del 20% del tope de compra directa del organismo; plazo de diez días.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S07",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 51",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/51",
+  "consulta": "2026-10-12",
+  "hallazgo": "Publicidad y plazos de licitación pública, reducciones motivadas y cómputo.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S08",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 52",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/52",
+  "consulta": "2026-10-12",
+  "hallazgo": "Concurso de precios y licitación abreviada: antelación e invitaciones. Tres firmas invitadas no equivale a tres ofertas recibidas.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S09",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 63",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/63",
+  "consulta": "2026-10-12",
+  "hallazgo": "Presentación por el medio, lugar y plazo del llamado; confidencialidad previa a apertura; variantes según autorización.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S10",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 65",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/65",
+  "consulta": "2026-10-12",
+  "hallazgo": "Apertura, acta, subsanación limitada, admisibilidad y confidencialidad; factores fijados en pliego.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S11",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 66",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/66",
+  "consulta": "2026-10-12",
+  "hallazgo": "Comisión asesora, dictamen fundado, ofertas similares, mejoras y negociaciones condicionadas.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S12",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 67",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/67",
+  "consulta": "2026-10-12",
+  "hallazgo": "Vista previa para procedimientos competitivos que superen cuatro veces el máximo de licitación abreviada correspondiente.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S13",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 68",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/68",
+  "consulta": "2026-10-12",
+  "hallazgo": "Adjudicación por ordenador competente y fundamentación de apartamiento del dictamen.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S14",
+  "organismo": "IMPO",
+  "titulo": "Decreto 142/018",
+  "url": "https://www.impo.com.uy/bases/decretos/142-2018",
+  "consulta": "2026-10-12",
+  "hallazgo": "Apertura electrónica, plataforma ARCE, reserva previa y alcance subjetivo. No impone universalmente apertura electrónica a intendencias.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S15",
+  "organismo": "ARCE",
+  "titulo": "Registro Único de Proveedores del Estado",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/politicas-y-gestion/planes/registro-unico-proveedores-del-estado",
+  "consulta": "2026-10-12",
+  "hallazgo": "Diferencia entre oferente en ingreso/activo y adjudicatario activo, con excepciones regladas.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S16",
+  "organismo": "IMPO",
+  "titulo": "Decreto 202/024, artículo 2",
+  "url": "https://www.impo.com.uy/bases/decretos-originales/202-2024/2",
+  "consulta": "2026-10-12",
+  "hallazgo": "Excepciones RUPE; umbral menor al 35% del tope común, sin aplicar el tope especial departamental.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S17",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 46",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/46",
+  "consulta": "2026-10-12",
+  "hallazgo": "Capacidad para contratar, impedimentos, incompatibilidades y conflictos de interés.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S18",
+  "organismo": "IMPO",
+  "titulo": "Decreto 202/024, artículo 20",
+  "url": "https://www.impo.com.uy/bases/decretos/202-2024/20",
+  "consulta": "2026-10-12",
+  "hallazgo": "Valoración de sanciones registradas: tipo, plazo, cantidad y relación con adjudicaciones.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S19",
+  "organismo": "ARCE",
+  "titulo": "Lineamientos de antecedentes RUPE aprobados en 2026",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/comunicacion/noticias/arce-aprobo-lineamientos-para-consideracion-antecedentes-proveedores",
+  "consulta": "2026-10-12",
+  "hallazgo": "Noticia oficial del 04/06/2026 sobre la Resolución 4/026 y cláusula modelo.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S20",
+  "organismo": "IMPO",
+  "titulo": "Resolución ARCE 4/026 y lineamientos",
+  "url": "https://www.impo.com.uy/bases/otras-normas-originales/4-2026/1",
+  "consulta": "2026-10-12",
+  "hallazgo": "Resolución del 11/03/2026, publicada el 22/05/2026. Parámetros de valoración deben incorporarse al pliego, no improvisarse después.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S21",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 58",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/58",
+  "consulta": "2026-10-12",
+  "hallazgo": "Preferencias nacionales condicionadas; no confundir origen del bien con domicilio local del proveedor.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S22",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 43",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/43",
+  "consulta": "2026-10-12",
+  "hallazgo": "Agrupamiento y fraccionamiento fundado bajo responsabilidad del ordenador. Una alerta informática no prueba ilegalidad.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S23",
+  "organismo": "IMPO",
+  "titulo": "Ley 19.355, artículo 24, texto vigente",
+  "url": "https://www.impo.com.uy/bases/leyes/19355-2015/24",
+  "consulta": "2026-10-12",
+  "hallazgo": "Plan anual de contratación: exclusión expresa de gobiernos departamentales de esta obligación nacional.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S24",
+  "organismo": "IMPO",
+  "titulo": "Decreto 169/026",
+  "url": "https://www.impo.com.uy/bases/decretos/169-2026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Reglamentación vigente del PAC, julio 2026; deroga Decreto 339/021 y mantiene excepción departamental.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S25",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 64",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/64",
+  "consulta": "2026-10-12",
+  "hallazgo": "Garantías, umbrales, alternativas y excepciones; verificar siempre pliego y régimen aplicable.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S26",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 44",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/44",
+  "consulta": "2026-10-12",
+  "hallazgo": "Régimen ampliado condicionado. No se acreditó habilitación especial de IDL para activarlo.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S27",
+  "organismo": "IMPO",
+  "titulo": "Constitución, artículo 211",
+  "url": "https://www.impo.com.uy/bases/constitucion/1967-1967/211",
+  "consulta": "2026-10-12",
+  "hallazgo": "Control preventivo de gastos y pagos; observaciones, insistencia y contadores delegados.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S28",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 15",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/15",
+  "consulta": "2026-10-12",
+  "hallazgo": "Disponibilidad presupuestal y límites para comprometer gastos.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S29",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 74",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/74",
+  "consulta": "2026-10-12",
+  "hallazgo": "Aumentos/disminuciones contractuales sujetos a condiciones. No emitir ampliaciones automáticas.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S30",
+  "organismo": "IMPO",
+  "titulo": "Ley 18.381, artículo 5",
+  "url": "https://www.impo.com.uy/bases/leyes/18381-2008/5",
+  "consulta": "2026-10-12",
+  "hallazgo": "Transparencia activa, licitaciones y organización de información.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S31",
+  "organismo": "IMPO",
+  "titulo": "Ley 18.331, artículo 7",
+  "url": "https://www.impo.com.uy/bases/leyes/18331-2008/7",
+  "consulta": "2026-10-12",
+  "hallazgo": "Datos adecuados, exactos y no excesivos para su finalidad.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S32",
+  "organismo": "ARCE",
+  "titulo": "Sistema de Información de Compras y Contrataciones Estatales",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/politicas-y-gestion/sistema-informacion-compras-contrataciones-estatales",
+  "consulta": "2026-10-12",
+  "hallazgo": "SICE abarca pedido a factura. Disponibilidad para administraciones estatales no acredita implementación integral en IDL.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S33",
+  "organismo": "ARCE",
+  "titulo": "Publicar adjudicación en SICE, manual 2026",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/sites/agencia-reguladora-compras-estatales/files/2026-02/10.%20Publicar%20adjudicaci%C3%B3n.pdf",
+  "consulta": "2026-10-12",
+  "hallazgo": "Cuadro comparativo y selección de ofertas para registrar adjudicación. Referencia funcional, no recomendación autónoma.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S34",
+  "organismo": "ARCE",
+  "titulo": "Open Contracting y servicios de datos",
+  "url": "https://www.gub.uy/agencia-reguladora-compras-estatales/datos-y-estadisticas/datos/open-contracting",
+  "consulta": "2026-10-12",
+  "hallazgo": "Servicios de lectura de registros y publicaciones OCDS. No constituyen una API pública para adjudicar o pagar.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ },
+ {
+  "id": "S35",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Decreto departamental 4.076, de 25/03/2026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/decreto-departamental-n-4076-fecha-25032026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Artículos 29 y 47: Departamento de Compras Públicas Departamentales, dependiente de Gestión Humana y Recursos Materiales.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S36",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 2.987/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-2987026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Solicitud de área, informe de Licitaciones, elección de procedimiento y aprobación de llamado/pliego: ración bovina.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S37",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 3.655/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-3655026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Chapas matrícula: apertura de sobres, informe técnico, dictamen, control previo, notificación, contrato y difusión.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S38",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 3.342/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-3342026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Planta dosificadora: alternativas, cotización CIF en dólares y circuito de adjudicación. No comparar CIF con entrega local sin normalizar.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S39",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 2.601/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-2601026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Gravilla/arena: adjudicación más IVA, imputación preventiva y disponibilidad. Presenta discrepancia entre cantidad declarada de oferentes y nombres enumerados.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S40",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 2.564/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-2564026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Compra de artículos de oficina mediante convenio marco 10/023; evidencia de uso de esta modalidad.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S41",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 3.124/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-3124026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Modificación de rubrado y prórroga de consultas/apertura; exige versionado y notificaciones.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S42",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 2.889/026",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-2889026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Llamado a concurso de precios 2/2026. La cita literal A del considerando no reemplaza el encuadre normativo correcto del concurso.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S43",
+  "organismo": "Intendencia de Lavalleja",
+  "titulo": "Resolución 3.659/024",
+  "url": "https://www.gub.uy/intendencia-lavalleja/institucional/normativa/resolucion-n-3659024",
+  "consulta": "2026-10-12",
+  "hallazgo": "Recoge observación TCR por falta de criterios objetivos dentro de un factor y la discrepancia de IDL, que reitera el gasto. No se tuvo el expediente completo del TCR.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S44",
+  "organismo": "Intendencia de Lavalleja / gub.uy",
+  "titulo": "Venta de pliegos - Lavalleja",
+  "url": "https://www.gub.uy/tramites/venta-pliegos-lavalleja",
+  "consulta": "2026-10-12",
+  "hallazgo": "Canal de consulta/compra de pliegos por correo y presencial. No acredita que toda oferta se reciba por ese correo.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S45",
+  "organismo": "Intendencia de Lavalleja / gub.uy",
+  "titulo": "Inscripción de proveedores - Lavalleja",
+  "url": "https://www.gub.uy/tramites/inscripcion-proveedores-lavalleja",
+  "consulta": "2026-10-12",
+  "hallazgo": "Información del trámite local: RUPE activo, DGI/BPS y salvedad sobre monotributo. No sustituye el análisis jurídico por etapa y procedimiento.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_local"
+ },
+ {
+  "id": "S46",
+  "organismo": "Intendencia de Montevideo",
+  "titulo": "Servicio de Compras",
+  "url": "https://montevideo.gub.uy/institucional/dependencias/compras",
+  "consulta": "2026-10-12",
+  "hallazgo": "Referencia de organización: compras directas, proveedores, licitaciones y análisis de procesos.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_externo"
+ },
+ {
+  "id": "S47",
+  "organismo": "Intendencia de Montevideo",
+  "titulo": "Compras y adjudicaciones",
+  "url": "https://www.montevideo.gub.uy/institucional/proveedores/compras-y-adjudicaciones",
+  "consulta": "2026-10-12",
+  "hallazgo": "Carteleras departamentales de compras y adjudicaciones.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_externo"
+ },
+ {
+  "id": "S48",
+  "organismo": "Intendencia de Canelones",
+  "titulo": "Compras, licitaciones y adjudicaciones",
+  "url": "https://www.imcanelones.gub.uy/conozca/gobierno/compras-licitaciones-y-adjudicaciones",
+  "consulta": "2026-10-12",
+  "hallazgo": "Portal departamental remite a publicaciones ARCE e identifica inciso 81.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_externo"
+ },
+ {
+  "id": "S49",
+  "organismo": "Intendencia de Florida",
+  "titulo": "Acta 133/2026",
+  "url": "https://www.gub.uy/intendencia-florida/institucional/informacion-gestion/actas/acta-n-1332026",
+  "consulta": "2026-10-12",
+  "hallazgo": "Referencia de procedimiento desierto seguido por causal de excepción y de ampliación contractual. No regla uniforme de todas las intendencias.",
+  "tipo": "fuente primaria",
+  "kind": "antecedente_externo"
+ },
+ {
+  "id": "S50",
+  "organismo": "IMPO / TCR",
+  "titulo": "TOCAF, artículo 149",
+  "url": "https://www.impo.com.uy/bases/tocaf-tcr/150-2012/149",
+  "consulta": "2026-10-12",
+  "hallazgo": "Principios rectores de contratación y administración financiera.",
+  "tipo": "fuente primaria",
+  "kind": "normativa"
+ }
+]

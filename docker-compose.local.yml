@@ -1,0 +1,9 @@
+# Override solo para Docker Desktop: publica el puerto HTTP de la interfaz en localhost.
+# Coolify no usa este archivo; el dominio y HTTPS los gestiona el proxy de Coolify.
+services:
+  web:
+    ports:
+      - "127.0.0.1:${LOCAL_HTTP_PORT:-8080}:8080"
+  mailpit:
+    ports:
+      - "127.0.0.1:${MAILPIT_UI_PORT:-8025}:8025"

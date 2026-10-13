@@ -1,0 +1,127 @@
+# Stack de Compra Clara Lavalleja.
+# Uso local:   docker compose -f docker-compose.yml -f docker-compose.local.yml up -d --build
+# Coolify:     usar docker-compose.yml; la publicación del puerto la gestiona el proxy de Coolify.
+# Ninguna base de datos, caché ni almacenamiento se publica al exterior.
+name: compra-clara
+
+x-backend-build: &backend-build
+  build:
+    context: .
+    dockerfile: backend/Dockerfile
+  image: compra-clara-backend:local
+
+x-backend-env: &backend-env
+  DATABASE_URI: mysql+pymysql://${MARIADB_USER:?}:${MARIADB_PASSWORD:?}@db:3306/${MARIADB_DATABASE:?}?charset=utf8mb4
+  DOCUMENT_STORAGE: local
+  DOCUMENT_ROOT: /var/lib/cc/documents
+  MODEL_CACHE: /var/lib/cc/models
+  PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?}
+  TRUST_PROXY: ${TRUST_PROXY:-1}
+  COOKIE_SECURE: ${COOKIE_SECURE:-true}
+
+services:
+  db:
+    image: mariadb:11.4.8
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${MARIADB_DATABASE:?}
+      MARIADB_USER: ${MARIADB_USER:?}
+      MARIADB_PASSWORD: ${MARIADB_PASSWORD:?}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:?}
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+  migrate:
+    <<: *backend-build
+    command: ["sh", "-c", "python wait_for_db.py && flask db upgrade && flask seed-base"]
+    restart: "no"
+    environment:
+      <<: *backend-env
+      SECRET_KEY: ${SECRET_KEY:?}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  backend:
+    <<: *backend-build
+    restart: unless-stopped
+    environment:
+      <<: *backend-env
+      SECRET_KEY: ${SECRET_KEY:?}
+      AI_ENABLED: ${AI_ENABLED:-false}
+      OLLAMA_HOST: ${OLLAMA_HOST:-https://ollama.com}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-}
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
+      MAIL_SERVER: ${MAIL_SERVER:-mailpit}
+      MAIL_PORT: ${MAIL_PORT:-1025}
+      MAIL_USE_TLS: ${MAIL_USE_TLS:-false}
+      MAIL_USERNAME: ${MAIL_USERNAME:-}
+      MAIL_PASSWORD: ${MAIL_PASSWORD:-}
+      MAIL_DEFAULT_SENDER: ${MAIL_DEFAULT_SENDER:-no-reply@compra-clara.local}
+    volumes:
+      - documents:/var/lib/cc/documents
+      - models:/var/lib/cc/models
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    expose: ["5006"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys,urllib.request; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:5006/api/v1/health/live', timeout=4).status == 200 else 1)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  worker:
+    <<: *backend-build
+    restart: unless-stopped
+    command: ["python", "-m", "app.worker"]
+    healthcheck:
+      disable: true
+    environment:
+      <<: *backend-env
+      SECRET_KEY: ${SECRET_KEY:?}
+      AI_ENABLED: ${AI_ENABLED:-false}
+      OLLAMA_HOST: ${OLLAMA_HOST:-https://ollama.com}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-}
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
+    volumes:
+      - documents:/var/lib/cc/documents
+      - models:/var/lib/cc/models
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: compra-clara-web:local
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    expose: ["8080"]
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  mailpit:
+    image: axllent/mailpit:v1.27.10
+    profiles: ["local"]
+    restart: unless-stopped
+    expose: ["1025", "8025"]
+
+volumes:
+  db-data:
+  documents:
+  models:
